@@ -1,8 +1,7 @@
 #include <iostream>
-#include <curl/curl.h>
+#include <map>
 #include <string>
-#include <json/json.h>  // JSON parsing ke liye
-
+#include <algorithm>
 using namespace std;
 
 // API se response store karne ke liye callback function
